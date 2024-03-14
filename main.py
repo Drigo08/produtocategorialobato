@@ -10,7 +10,7 @@ Editar o migrations/env.py linha 18 e 19 para
     from models import base
     target_metadata = base.Base.metadata
 alembic revision --autogenerate -m "Migracao inicial"
-alembic upgrade head
+
 """
 
 if __name__ == "__main__":
